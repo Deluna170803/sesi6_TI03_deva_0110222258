@@ -1,0 +1,80 @@
+body{
+    background-color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#header {
+    background-color: burlywood;
+    text-align: center;
+    margin: auto;
+    color: #00f;
+
+}
+
+#soekarno {
+    background-color: yellow;
+    font-size: 11pt;
+    text-align: center;
+    margin: 0, 30;
+    box-sizing: content-box;
+    color: #000;
+}
+
+.navigasi {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+.gambar {
+    display: flex;
+    justify-content: center;
+}
+
+.isi {
+    text-align: justify;
+    margin: 5px;
+
+}
+
+.B {
+    color: blue;
+    font-size: xx-large;
+}
+
+#profil {
+    list-style-type: square;
+    margin: 5px;
+
+
+}
+
+.koleksi {
+    display:flex;
+    justify-content: center;
+    background-color: #000;
+}
+
+.koleksi img {
+    width: 20%;
+}
+
+.promo {
+    text-align: center;
+}
+
+.promo h3 {
+    border-style: dashed;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.promo ol {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid;
+    background-color: burlywood;
+}
